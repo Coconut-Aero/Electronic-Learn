@@ -25,7 +25,7 @@ steps = np.arange(len(A))
 steps_extended = np.repeat(steps, 2)[1:]
 
 for a, b, c in zip(A, B, C):
-    vote_result = vote(a, b, c)  # Rename the variable here
+    vote_result = vote(a, b, c)
     vote_output.append(vote_result)
 
 A_extended = np.repeat(A, 2)[:-1]
