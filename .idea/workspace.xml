@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6c7a672-b5b9-4f60-bf74-7aa301f3a65b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/all-adder/all-adder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/all-adder/img.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Electronic-Learn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Electronic-Learn.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/all-adder/all-adder.kicad_sch" beforeDir="false" afterPath="$PROJECT_DIR$/src/all-adder/all-adder.kicad_sch" afterDir="false" />
-    </list>
+    <list default="true" id="f6c7a672-b5b9-4f60-bf74-7aa301f3a65b" name="Changes" comment="all-adder" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +20,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Coconut-Aero"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Coconut-Aero/Electronic-Learn.git",
+    "accountId": "e41a56b9-8a74-4e24-b2ab-9a3208b786ef"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -94,12 +99,25 @@
       <workItem from="1730909906525" duration="46000" />
       <workItem from="1730909967616" duration="23000" />
       <workItem from="1730909995243" duration="617000" />
-      <workItem from="1730910617668" duration="989000" />
+      <workItem from="1730910617668" duration="1066000" />
     </task>
+    <task id="LOCAL-00001" summary="all-adder">
+      <option name="closed" value="true" />
+      <created>1730911639718</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730911639718</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="all-adder" />
+    <option name="LAST_COMMIT_MESSAGE" value="all-adder" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Electronic_Learn$all_adder.coverage" NAME="all-adder 覆盖结果" MODIFIED="1730911526293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/all-adder" />
