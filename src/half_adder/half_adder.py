@@ -57,7 +57,9 @@ plt.suptitle('Half Adder Simulation (Digital Signals)', fontsize=16)
 plt.tight_layout()
 
 current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-plt.annotate(f"Author: XiaoYi Zero\nGenerated on: {current_time}\nSoftware: Python & Matplotlib & KiCAD",
-             xy=(0.99, 0.01), xycoords='figure fraction', ha='right', va='bottom', fontsize=10)
+plt.annotate(f"Author: XiaoYi Zero\nGenerated on: {current_time}",
+             xy=(0.01, 0.96), xycoords='figure fraction', ha='left', va='top', fontsize=10)
+plt.annotate(f"Software: Python & Matplotlib & KiCAD",
+             xy=(0.99, 0.95), xycoords='figure fraction', ha='right', va='top', fontsize=10)
 
 plt.show()
