@@ -4,11 +4,11 @@ import numpy as np
 
 def colors(i):
     switch_dict = {
-        0: 'yellow',
-        1: 'red',
-        2: 'orange',
-        3: 'pink',
-        4: 'blue',
+        0: 'red',
+        1: 'blue',
+        2: 'purple',
+        3: 'orange',
+        4: 'yellow',
         5: 'green',
         6: 'aliceblue',
         7: 'antiquewhite',
@@ -155,7 +155,7 @@ def colors(i):
     }
     return switch_dict[i]
 
-def main(count: int, steps_extended, lens, suptitle,*args,):
+def main(count: int, steps_extended, lens, suptitle, file_name,*args,):
     fig, axs = plt.subplots(count, 1, figsize=(8, 10))
     for i in range(count):
         if i == count-1:
@@ -182,5 +182,5 @@ def main(count: int, steps_extended, lens, suptitle,*args,):
     plt.annotate(f"Software: Python & Matplotlib & KiCAD",
                  xy=(0.99, 0.95), xycoords='figure fraction', ha='right', va='top', fontsize=10)
 
-    plt.savefig("graph_output.png", format="png")
+    plt.savefig(file_name, format="png")
     plt.show()
