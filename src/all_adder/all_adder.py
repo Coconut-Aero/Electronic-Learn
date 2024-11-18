@@ -2,13 +2,8 @@ from datetime import datetime
 
 import matplotlib.pyplot as plt
 import numpy as np
-
-def nand4(x, y, z, m):
-    return int(not (x and y and z and m))
-
-def ls74138(x, y, z, data):
-    res = x * 4 + y * 2 + z * 1
-    return int(not res==data)
+from share_func import  ls74138
+from share_func import  nand4
 
 A = np.array([0, 0, 0, 0, 1, 1, 1, 1])
 B = np.array([0, 0, 1, 1, 0, 0, 1, 1])
