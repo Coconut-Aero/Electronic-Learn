@@ -5,6 +5,8 @@
  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" alt="Language">
  <img src="https://img.shields.io/badge/Coconut-Aero-blue" alt="Coconut-Aero">
  <img src="https://img.shields.io/badge/PyCharm-000000.svg?logo=pycharm&logoColor=ffffff" alt="">
+ <img src="https://img.shields.io/github/last-commit/Coconut-Aero/Electronic-Learn" alt="">
+
 </div>
 
 <p align="center">
@@ -28,3 +30,4 @@
 | 5  |   基本触发器   | 利用74LS00实现基本R-S、钟控R-S、钟控D触发器 | 24/11/11 |
 | 6  | 比较大小和四舍五入 |  利用74LS00和74LS10实现比较大小和四舍五入  | 24/11/15 |
 | 7  |   全减法器    |    利用74LS20和74LS138实现全减法器    | 24/11/18 |
+| 8  |    抢答器    |   利用74LS175的D触发器实现抢答和复位功能    | 24/12/3  |
