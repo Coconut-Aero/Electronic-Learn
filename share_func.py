@@ -4,3 +4,6 @@ def nand4(x, y, z, m):
 def ls74138(x, y, z, data):
     res = x * 4 + y * 2 + z * 1
     return int(not res==data)
+
+def xor2(x,y):
+    return int(x!=y)

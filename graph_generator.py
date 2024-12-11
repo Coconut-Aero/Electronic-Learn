@@ -155,7 +155,7 @@ def colors(i):
     }
     return switch_dict[i]
 
-def main(count: int, steps_extended, lens, suptitle, file_name,*args,):
+def main(count: int, steps_extended, lens, suptitle, file_name, *args,):
     fig, axs = plt.subplots(count, 1, figsize=(8, 10))
     for i in range(count):
         if i == count-1:
